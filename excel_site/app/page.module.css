@@ -11,10 +11,29 @@
 
 .overview div {
 	width: 30%;
-	background-color: white;
+	height: 350px;
 	color: black;
 	border-radius: 15px;	
 	padding: 10px;
+}
+
+.overview img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+.directory {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-auto-rows: 100px;
+	gap: 33%;
+	padding: 10%;
+}
+
+.directory div {
+	background-color: white;
+	color: black;
 }
 
 .page {
