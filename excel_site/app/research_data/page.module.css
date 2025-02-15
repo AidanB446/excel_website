@@ -1,0 +1,76 @@
+
+.body {
+	width: 80%;
+	height: fit-content;	
+	padding: 40px;
+	border-radius: 13px;	
+	background-color: black;
+	margin: auto;
+	opacity: 0.95;	
+
+}
+
+.alienInvasion {
+	display: flex;
+	flex-direction: row;	
+	gap: 30%;
+	justify-self: center;
+	justify-content: center;
+}
+
+.alienInvasion div {
+	width: 44%;
+	height: fit-content;
+}
+
+.data {
+	display: flex;
+	flex-direction: row;	
+	gap: 15%;
+	justify-self: center;
+	justify-content: center;
+}
+
+.data div {
+	width: 44%;
+	height: fit-content;
+}
+
+.datatable {
+	border-collapse: collapse;
+	border: 2px solid white;
+	font-family: sans-serif;
+	font-size: 0.8rem;
+}
+
+.datatable th {
+	border: 1px solid white;
+
+}
+
+.datatable td {
+	border: 1px solid white;
+
+}
+
+.datatable2 {
+	border-collapse: collapse;
+	border: 2px solid white;
+	font-family: sans-serif;
+	font-size: 0.8rem;
+}
+
+.datatable2 th {
+	border: 1px solid white;
+
+}
+
+.datatable2 td {
+	border: 1px solid white;
+
+}
+
+
+
+
+
