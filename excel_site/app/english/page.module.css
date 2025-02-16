@@ -1,0 +1,31 @@
+
+.body {
+	width: 80%;
+	height: fit-content;	
+	padding: 40px;
+	border-radius: 13px;	
+	background-color: black;
+	margin: auto;
+	opacity: 0.95;	
+}
+
+.scifiIntro {
+	display: flex;
+	flex-direction: row;
+	gap: 33%;
+}
+
+.scifiIntro div {
+	height: 33%;
+	width: 33%;
+}
+
+.scifiIntro img {
+	height: 100%;
+	width: 100%;
+	object-fit: contain;
+}
+
+
+
+

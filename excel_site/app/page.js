@@ -5,9 +5,10 @@ import mathImg from "../public/360_F_205762306_KCw2syVz457NVnZNQCgFdeWW0MRKqlt0.
 import englishImg from "../public/images.jpeg";
 import socialImg from "../public/illustration-of-study-vector.jpg";
 import researchImg from "../public/search-for-a-job-or-do-research-in-marketing-find-new-solutions-brand-researching-information-businessman-looking-for-a-job-with-a-magnifying-glass-vector.jpg";
-
+import rideModell from "../public/model.png";
+import commericalImg from "../public/commercial.jpg";
+import mapImg from "../public/map.jpg";
 import Link from "next/link";
-
 
 export default function Home() {
   return (
@@ -58,22 +59,33 @@ export default function Home() {
 				<h2>Social Studies</h2>	
 	  		</div>		
 			<div>
-	  			<Link href="/map">Our Map</Link>
-			</div>		
-			<div>
-	  			<Link href="/ride_model">Our Ride Model</Link>
+	  			<Link href="/map">
+					<img src={mapImg.src}></img>
+	  			</Link>
+				<h2>Map</h2>
 	  		</div>		
 			<div>
-	  			<Link href="/commercial">Our Commercial</Link>
+	  			<Link href="/ride_model">
+					<img src={rideModell.src}></img>
+	  			</Link>
+				<h2>Our Ride Model</h2>
+	  		</div>		
+			<div>
+	  			<Link href="/commercial">
+					<img src={commericalImg.src}></img>
+	  			</Link>
+				<h2>Our Commercial</h2>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
 	  		</div>		
 	  	</div>		
-
 		<br/>
 		<br/>
 		<br/>
 		<br/>
 		<br/>
 	</div>	
-
   );
 }
