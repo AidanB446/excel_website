@@ -24,7 +24,9 @@ export default function Home() {
 	  			<h2>Horror and Fun All In One!</h2>
 			</div>
 			<div>
-				<img src={alienImg.src}></img>
+				<Link href="/brainwash">
+	  				<img src={alienImg.src}></img>
+			  	</Link>
 			</div>	
 		</div>
 		<div className={styles.directory}>
